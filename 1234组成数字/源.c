@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int main()
+void main()
 {
 	int i, j, k;
 	printf("\n");
@@ -12,5 +12,5 @@ int main()
 					printf("%d, %d, %d\n", i, j, k);
 			}
 	system("pause");
-	return 0;
+	return ;
 }
