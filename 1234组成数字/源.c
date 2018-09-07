@@ -9,7 +9,7 @@ void main()
 			for (k = 1; k<5; k++)
 			{
 				if (i != k&&i != j&&j != k) /*确保i、j、k三位互不相同*/
-					printf("%d%d%d\n", i, j, k);
+					printf("%d, %d, %d\n", i, j, k);
 			}
 	system("pause");
 	return ;
